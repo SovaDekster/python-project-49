@@ -20,16 +20,10 @@ def main():
         else:
             true_answer = 'no'
 
-        if question % 2 == 0 and your_answer == 'yes':
+        if (question % 2 == 0 and your_answer == 'yes') or (question % 2 != 0 and your_answer == 'no'):
             count += 1
             print('Correct!')
-        elif question % 2 != 0 and your_answer == 'no':
-            count += 1
-            print('Correct!')
-        elif question % 2 == 0 and your_answer == 'no':
-            print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
-            break
-        elif question % 2 != 0 and your_answer == 'yes':
+        elif (question % 2 == 0 and your_answer == 'no') or (question % 2 != 0 and your_answer == 'yes'):
             print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
             break
         elif your_answer != 'yes' and your_answer != 'no':
