@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-from random import randint
 import prompt
 
 
@@ -12,33 +11,32 @@ def main():
 
     count = 0
     while count < 3:
-      question = random.randint(1, 100)
-      print(f'Question: {question}')
-      your_answer = prompt.string('Your answer: ')
+        question = random.randint(1, 100)
+        print(f'Question: {question}')
+        your_answer = prompt.string('Your answer: ')
 
-      if question % 2 == 0:
-        true_answer = 'yes'
-      else:
-        true_answer = 'no'
-  
-      if question % 2 == 0 and your_answer == 'yes':
-        count += 1
-        print('Correct!')
-      elif question % 2 != 0 and your_answer == 'no':
-        count += 1
-        print('Correct!')
-      elif question % 2 == 0 and your_answer == 'no':
-        print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
-        break
-      elif question % 2 != 0 and your_answer == 'yes':
-        print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
-        break
-      elif your_answer != 'yes' and your_answer != 'no':
-        print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
-        break
+        if question % 2 == 0:
+            true_answer = 'yes'
+        else:
+            true_answer = 'no'
 
-    if count == 3:
-      print(f'Congratulations, {name}!')
+        if question % 2 == 0 and your_answer == 'yes':
+            count += 1
+            print('Correct!')
+        elif question % 2 != 0 and your_answer == 'no':
+            count += 1
+            print('Correct!')
+        elif question % 2 == 0 and your_answer == 'no':
+            print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
+            break
+        elif question % 2 != 0 and your_answer == 'yes':
+            print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
+            break
+        elif your_answer != 'yes' and your_answer != 'no':
+            print(f'\'{your_answer}\' is wrong answer ;(. Correct answer was \'{true_answer}\'.\nLet\'s try again, {name}!')
+            break
+        if count == 3:
+            print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
