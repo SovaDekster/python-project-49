@@ -3,8 +3,10 @@
 #codeclimate: 
 <a href="https://codeclimate.com/github/SovaDekster/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/9dbbc60eae0a9b25baf4/maintainability" /></a>
 
-This is a project, which consists of 5 games. Each of them can make you think.
+This is a project, which consists of 5 games. You can play each of it.
 You can clone the repository with git@github.com:SovaDekster/python-project-49.git
+
+For this games you will need python = "^3.10" and prompt = "^0.4.1"
 
 Also you can use some helpful commands:
 
