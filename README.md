@@ -30,17 +30,12 @@ brain-progression - fourth game
 
 brain-prime - fifth game
 
-If you want to view video for the first game:
-https://asciinema.org/a/uavicakSHatg4xBY7QLT3dZb0
+If you want to view video for the first game: <a href="https://asciinema.org/a/uavicakSHatg4xBY7QLT3dZb0" target="_blank"><img src="https://asciinema.org/a/uavicakSHatg4xBY7QLT3dZb0.svg" /></a>
 
-If you want to view video for the second game:
-https://asciinema.org/a/MPuZFEAwHPo1d3zaLT5d3VmP0
+If you want to view video for the second game: <a href="https://asciinema.org/a/MPuZFEAwHPo1d3zaLT5d3VmP0" target="_blank"><img src="https://asciinema.org/a/MPuZFEAwHPo1d3zaLT5d3VmP0.svg" /></a>
 
-If you want to view video for the third game:
-https://asciinema.org/a/ixY5kx26OIdiw2xhsLoQhbGDZ
+If you want to view video for the third game: <a href="https://asciinema.org/a/ixY5kx26OIdiw2xhsLoQhbGDZ" target="_blank"><img src="https://asciinema.org/a/ixY5kx26OIdiw2xhsLoQhbGDZ.svg" /></a>
 
-If you want to view video for the fourth game:
-https://asciinema.org/a/QPwJtbZY9W6iMSSPRqvXJZGJc
+If you want to view video for the fourth game: <a href="https://asciinema.org/a/QPwJtbZY9W6iMSSPRqvXJZGJc" target="_blank"><img src="https://asciinema.org/a/QPwJtbZY9W6iMSSPRqvXJZGJc.svg" /></a>
 
-If you want to view video for the fifth game:
-https://asciinema.org/a/525575
+If you want to view video for the fifth game: <a href="https://asciinema.org/a/525575" target="_blank"><img src="https://asciinema.org/a/525575.svg" /></a>
