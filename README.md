@@ -24,6 +24,8 @@ brain-calc - second game
 
 brain-gcd - third game
 
+brain-progression - fourth game
+
 If you want to view video for the first game:
 https://asciinema.org/a/uavicakSHatg4xBY7QLT3dZb0
 
@@ -32,3 +34,6 @@ https://asciinema.org/a/MPuZFEAwHPo1d3zaLT5d3VmP0
 
 If you want to view video for the third game:
 https://asciinema.org/a/ixY5kx26OIdiw2xhsLoQhbGDZ
+
+If you want to view video for the fourth game:
+https://asciinema.org/a/QPwJtbZY9W6iMSSPRqvXJZGJc
