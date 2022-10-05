@@ -1,7 +1,7 @@
 import random
 
 
-game_task = 'What is the result of the expression?'
+GAME_TASK = 'What is the result of the expression?'
 
 
 def generate_round():
