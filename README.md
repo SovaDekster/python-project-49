@@ -4,19 +4,26 @@
 <a href="https://codeclimate.com/github/SovaDekster/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/9dbbc60eae0a9b25baf4/maintainability" /></a>
 
 This is a project, which consists of 5 games. You can play each of it.
+In all games, knowledge of mathematics will help you.
+The first game is to check the parity of a number.
+The second game is a calculator. You need to calculate and write the result of the mathematical expression that the game will offer.
+Third game - you will be shown two random numbers. You need to calculate and enter the greatest common divisor of these numbers.
+The fourth game - you will be shown a series of numbers, forming an arithmetic progression. One number will be hidden. You need to determine this number.
+The fifth game offers a test for the primeness of a number.
+
 You can clone the repository with git@github.com:SovaDekster/python-project-49.git
 
 For this games you will need python = "^3.10" and prompt = "^0.4.1"
 
 Also you can use some helpful commands:
 
-make install
+make install - just like poetry install
 
 make build
 
 make publish
 
-make package-install
+make package-install - установка пакета
 
 To start every game you can enter:
 
