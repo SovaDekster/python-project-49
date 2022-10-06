@@ -24,4 +24,4 @@ def generate_round():
     correct_answer = str(progression[random_index])
     progression[random_index] = '..'
     question = ' '.join([str(elem) for elem in progression])
-    return correct_answer, question
+    return question, correct_answer
