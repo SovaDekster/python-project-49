@@ -20,7 +20,7 @@ def start(game):
                   f"Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {name}!")
             break
+
         print("Сorrect!")
     else:
         print(f"Congratulations, {name}!")
-    return
