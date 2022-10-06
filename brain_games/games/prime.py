@@ -4,16 +4,21 @@ import random
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
+def is_prime(number):
+    diapason = range(2, number)
+    if number <= 1:
+        return False
+    for elem in diapason:
+        if number % elem == 0:
+            return False
+        return True
+
+
 def generate_round():
     random_number = random.randint(0, 129)
-    diapason = range(2, random_number)
-    correct_answer = ''
-    if random_number == 0 and random_number == 1:
-        correct_answer = 'no'
-    for elem in diapason:
-        if random_number % elem == 0:
-            correct_answer = 'no'
-            break
+    if is_prime(random_number) is True:  # E712
         correct_answer = 'yes'
-    question = random_number
-    return str(question), correct_answer
+    else:
+        correct_answer = 'no'
+    question = str(random_number)
+    return question, correct_answer
