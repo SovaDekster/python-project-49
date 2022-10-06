@@ -11,8 +11,7 @@ Third game - you will be shown two random numbers. You need to calculate and ent
 The fourth game - you will be shown a series of numbers, forming an arithmetic progression. One number will be hidden. You need to determine this number.
 The fifth game offers a test for the primeness of a number.
 
-You can clone the repository with git@github.com:SovaDekster/python-project-49.git
-Or https://github.com/SovaDekster/python-project-49
+You can clone the repository with git@github.com:SovaDekster/python-project-49.git or https://github.com/SovaDekster/python-project-49
 
 For this games you will need python = "^3.10" and prompt = "^0.4.1"
 
