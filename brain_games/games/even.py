@@ -1,13 +1,13 @@
 import random
 
-GAME_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_round():
     number = random.randint(1, 100)
-    goal = number
+    question = number
     if number % 2 == 0:
-        result = 'yes'
+        correct_answer = 'yes'
     else:
-        result = 'no'
-    return goal, result
+        correct_answer = 'no'
+    return question, correct_answer

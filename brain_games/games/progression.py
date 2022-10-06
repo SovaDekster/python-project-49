@@ -1,7 +1,7 @@
 import random
 
 
-GAME_TASK = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def generate_round():
@@ -19,8 +19,8 @@ def generate_round():
             current_step += 1
         return progression
     progression = generate_progression()
-    mystery_number = random.randint(0, (len(progression) - 1))
-    result = str(progression[mystery_number])
-    progression[mystery_number] = '..'
-    goal = ' '.join([str(elem) for elem in progression])
-    return str(goal), str(result)
+    random_index = random.randint(0, (len(progression) - 1))
+    correct_answer = str(progression[random_index])
+    progression[random_index] = '..'
+    question = ' '.join([str(elem) for elem in progression])
+    return correct_answer, question

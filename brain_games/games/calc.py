@@ -1,19 +1,19 @@
 import random
 
 
-GAME_TASK = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def generate_round():
-    operator = ['+', '-', '*']
+    operators = ['+', '-', '*']
     x = random.randint(35, 70)
     y = random.randint(1, 35)
-    op = random.choice(operator)
-    goal = f"{x} {op} {y}"
+    op = random.choice(operators)
+    question = f"{x} {op} {y}"
     if op == '+':
-        result = str(x + y)
+        correct_answer = x + y
     elif op == '-':
-        result = str(x - y)
+        correct_answer = x - y
     elif op == '*':
-        result = str(x * y)
-    return str(goal), str(result)
+        correct_answer = x * y
+    return question, str(correct_answer)
