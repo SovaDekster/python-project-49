@@ -3,12 +3,11 @@ import random
 
 RULE = 'What number is missing in the progression?'
 
-first_number = random.randint(0, 34)
-length = random.randint(5, 10)
-step = random.randint(1, 8)
-
 
 def generate_progression():
+    first_number = random.randint(0, 34)
+    length = random.randint(5, 10)
+    step = random.randint(1, 8)
     progression = [str(first_number), ]
     current_step = 1
     current_number = first_number
