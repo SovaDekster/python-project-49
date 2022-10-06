@@ -12,6 +12,7 @@ The fourth game - you will be shown a series of numbers, forming an arithmetic p
 The fifth game offers a test for the primeness of a number.
 
 You can clone the repository with git@github.com:SovaDekster/python-project-49.git
+Or https://github.com/SovaDekster/python-project-49
 
 For this games you will need python = "^3.10" and prompt = "^0.4.1"
 
