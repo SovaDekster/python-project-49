@@ -8,12 +8,12 @@ def generate_round():
     operators = ['+', '-', '*']
     x = random.randint(35, 70)
     y = random.randint(1, 35)
-    op = random.choice(operators)
-    question = f"{x} {op} {y}"
-    if op == '+':
+    random_operator = random.choice(operators)
+    question = f"{x} {random_operator} {y}"
+    if random_operator == '+':
         correct_answer = x + y
-    elif op == '-':
+    elif random_operator == '-':
         correct_answer = x - y
-    elif op == '*':
+    elif random_operator == '*':
         correct_answer = x * y
     return question, str(correct_answer)
